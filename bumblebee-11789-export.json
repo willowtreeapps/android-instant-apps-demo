@@ -1,0 +1,47 @@
+{
+  "catalog" : {
+    "items" : [ {
+      "description" : "This is a cube with 6 colors. It currently looks very nice. DFIU.",
+      "id" : 0,
+      "image" : "/item_image/00_rubikscube.jpg",
+      "name" : "Rubik's Cube",
+      "price" : 42
+    }, {
+      "description" : "This is a Google that lives in your home.",
+      "id" : 1,
+      "image" : "/item_image/01_googlehome.jpg",
+      "name" : "Google Home",
+      "price" : 128
+    }, {
+      "description" : "Now your phone looks like a dream.",
+      "id" : 2,
+      "image" : "/item_image/02_daydream.jpg",
+      "name" : "Daydream View",
+      "price" : 99
+    }, {
+      "description" : "A very fuzzy sloth, captured in its natural habitat.",
+      "id" : 3,
+      "image" : "/item_image/03_sloth.jpg",
+      "name" : "Shelf Sloth",
+      "price" : 37
+    }, {
+      "description" : "A full set of 11 rechargeable batteries. Uniform brand not guaranteed.",
+      "id" : 4,
+      "image" : "/item_image/04_batteries.jpg",
+      "name" : "Rechargeable Batteries",
+      "price" : 33
+    }, {
+      "description" : "A wired keyboard by Acer. Please someone take this off our hands.",
+      "id" : 5,
+      "image" : "/item_image/05_keyboard.jpg",
+      "name" : "Wired Keyboard",
+      "price" : 0
+    }, {
+      "description" : "A controller for the Nintendo GameCube. Unfortunately, Integer datatype doesn't support \"priceless\".",
+      "id" : 6,
+      "image" : "/item_image/06_gc_controller.jpg",
+      "name" : "GameCube Controller",
+      "price" : 1337
+    } ]
+  }
+}

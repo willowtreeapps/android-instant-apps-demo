@@ -1,0 +1,30 @@
+buildscript {
+
+    project.ext.minSdkVersion = 19
+    project.ext.targetSdkVersion = 25
+    project.ext.compileSdkVersion = 25
+    project.ext.buildToolsVersion = "26.0.0-rc1"
+    project.ext.supportLibVersion = "25.3.1"
+    project.ext.daggerVersion = "2.10"
+    project.ext.firebaseVersion = "10.2.1"
+
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.0.0-alpha1",
+                "com.google.gms:google-services:3.1.0")
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

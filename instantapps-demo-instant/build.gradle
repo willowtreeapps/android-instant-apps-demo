@@ -1,0 +1,8 @@
+apply plugin: "com.android.instantapp"
+
+dependencies {
+    implementation project(":instantapps-demo-base")
+    implementation project(":instantapps-demo-browse")
+    implementation project(":instantapps-demo-item-detail")
+    implementation project(":instantapps-demo-cart")
+}

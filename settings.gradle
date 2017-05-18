@@ -1,0 +1,7 @@
+include ':instantapps-demo-base',
+        ':instantapps-demo-item-detail',
+        ':instantapps-demo-browse',
+        ':instantapps-demo-cart',
+
+        ':instantapps-demo-apk',
+        ':instantapps-demo-instant'

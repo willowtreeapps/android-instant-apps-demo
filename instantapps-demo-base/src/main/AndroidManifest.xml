@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.willowtreeapps.instantappsdemo">
+
+    <application
+        android:name=".ui.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_bee"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.willowtreeapps.instantappsdemo.feature.browse.ui.BrowseActivity"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="default-url"
+                android:value="https://bumblebee.willowtreeapps.com/"/>
+        </activity>
+    </application>
+
+</manifest>

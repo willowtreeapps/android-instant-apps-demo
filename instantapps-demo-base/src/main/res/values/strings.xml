@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bumblebee</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="my_cart">My Cart</string>
+    <string name="delete_cart">Abandon Cart</string>
+    <string name="price_n">Price: %1$s</string>
+    <string name="total_price_n">Total Price: %1$s</string>
+    <string name="share_cart">Share my cart</string>
+    <string name="item_added">This item has been added to your cart.</string>
+    <string name="view_cart">View Cart</string>
+    <string name="cart_items">Items in your cart:</string>
+    <string name="quantity_n">x %1$d</string>
+    <string name="item_n">Item #%1$d</string>
+
+</resources>
