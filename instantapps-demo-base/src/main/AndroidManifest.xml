@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.willowtreeapps.instantappsdemo">
+    package="com.willowtreeapps.androidinstantappsdemo">
 
     <application
         android:name=".ui.base.BaseApplication"
@@ -11,12 +11,20 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.willowtreeapps.instantappsdemo.feature.browse.ui.BrowseActivity"
+            android:name="com.willowtreeapps.androidinstantappsdemo.feature.browse.ui.BrowseActivity"
             android:label="@string/app_name">
             <meta-data
                 android:name="default-url"
                 android:value="https://bumblebee.willowtreeapps.com/"/>
         </activity>
+
+        <service
+            android:name=".data.service.FirebaseTokenListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>

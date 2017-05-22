@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.willowtreeapps.instantappsdemo.ui.view.SquareImageView
+        <com.willowtreeapps.androidinstantappsdemo.ui.view.SquareImageView
             android:id="@+id/catalogThumbnail"
             android:layout_width="match_parent"
             android:layout_height="0dp"

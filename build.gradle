@@ -8,6 +8,9 @@ buildscript {
     project.ext.daggerVersion = "2.10"
     project.ext.firebaseVersion = "10.2.1"
 
+    project.ext.versionCode = 12
+    project.ext.versionName = "1.1.1"
+
     repositories {
         jcenter()
         maven { url 'https://maven.google.com' }

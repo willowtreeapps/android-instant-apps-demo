@@ -5,11 +5,11 @@ android {
     buildToolsVersion project.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.willowtreeapps.instantappsdemo"
+        applicationId "com.willowtreeapps.androidinstantappsdemo"
         minSdkVersion project.minSdkVersion
         targetSdkVersion project.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode project.versionCode
+        versionName project.versionName
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

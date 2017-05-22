@@ -1,21 +1,25 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.willowtreeapps.instantappsdemo.feature.cart">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.willowtreeapps.androidinstantappsdemo.feature.cart"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application>
         <activity
             android:name=".ui.CartActivity"
             android:label="@string/my_cart"
             android:relinquishTaskIdentity="true"
             android:theme="@style/AppTheme">
-            <intent-filter android:order="1">
-                <action android:name="android.intent.action.VIEW" />
+            <intent-filter
+                android:autoVerify="true"
+                android:order="1">
+                <action android:name="android.intent.action.VIEW"/>
 
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
 
-                <data
-                    android:host="bumblebee.willowtreeapps.com"
-                    android:pathPattern="/cart/.*"
-                    android:scheme="https" />
+                <data android:host="bumblebee.willowtreeapps.com"/>
+                <data android:pathPattern="/cart/.*"/>
+                <data android:scheme="https"/>
+                <data android:scheme="http"/>
             </intent-filter>
         </activity>
     </application>
