@@ -1,7 +1,12 @@
 # instantapps-demo
 
-This is an early demo of Android Instant Apps.
-Please see your blog post here to learn what you need to get set up.
+This is a companion app called bumblebee to the blog post [An Introduction to Android Instant Apps](https://willowtreeapps.com/ideas/an-introduction-to-android-instant-apps)
+by James Sun and Nish Tahir.
+
+# Setup
+
+Please see the [Set up your development environment](https://developer.android.com/topic/instant-apps/getting-started/setup.html) of the Android Instant apps documentation to set up your
+development environment.
 
 This project uses Firebase for the cloud database and file storage.
 In order to build this project, you will need to create your own
