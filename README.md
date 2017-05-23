@@ -15,7 +15,7 @@ Firebase account and set it up:
 1. Once you have Firebase set up, go to the Firebase console and download
 the `google-services.json` configuration file and copy it into the
 2 empty `google-services.json` files in this project.
-There is one in the base feature module, and one in the apk module.
+There is one in the base feature module (`instantapps-demo-base`), and one in the apk module (`instantapps-demo-apk`).
 They can be identical.
 2. Setup the database on Firebase by importing the
 `bumblebee-11789-export.json` file in this repo.
